@@ -1,6 +1,7 @@
 {
   "name": "gulp",
   "version": "1.0.0",
+  "type": "module",
   "description": "Learn Gulp by building an awesome development environment",
   "main": "index.js",
   "scripts": {
@@ -19,6 +20,9 @@
   },
   "homepage": "https://github.com/woong12/Gulp#readme",
   "devDependencies": {
-    "gulp": "^4.0.2"
+    "gulp": "^4.0.2",
+    "@babel/core": "^7.21.8",
+    "@babel/preset-env": "^7.21.5",
+    "@babel/register": "^7.21.0"
   }
 }
