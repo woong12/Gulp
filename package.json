@@ -26,14 +26,19 @@
     "gulp-pug": "^5.0.0"
   },
   "dependencies": {
+    "babelify": "^10.0.0",
+    "browserify": "^17.0.0",
     "del": "^4.1.1",
     "gulp": "^4.0.0",
     "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
     "gulp-csso": "^4.0.1",
     "gulp-image": "^6.2.1",
     "gulp-sass": "^5.1.0",
     "gulp-webserver": "^0.9.1",
-    "node-sass": "^9.0.0"
+    "node-sass": "^9.0.0",
+    "uglifyify": "^5.0.2",
+    "vinyl-source-stream": "^2.0.0"
   },
   "browserslist": [
     "last 2 versions"
