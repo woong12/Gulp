@@ -4,7 +4,9 @@
   "description": "Learn Gulp by building an awesome development environment",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "gulp dev",
+    "build": "gulp build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/woong12/Gulp/issues"
   },
-  "homepage": "https://github.com/woong12/Gulp#readme"
+  "homepage": "https://github.com/woong12/Gulp#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  }
 }
