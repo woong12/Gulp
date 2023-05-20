@@ -5,6 +5,8 @@ import ws from "gulp-webserver";
 import image from "gulp-image";
 import gulp_sass from "gulp-sass";
 import node_sass from "node-sass";
+import autoprefixer from "gulp-autoprefixer";
+import miniCSS from "gulp-csso";
 
 const sass = gulp_sass(node_sass);
 
@@ -40,6 +42,8 @@ const styles = () =>
   gulp
     .src(routes.scss.src)
     .pipe(sass().on("error", sass.logError))
+    .pipe(autoprefixer())
+    .pipe(miniCSS())
     .pipe(gulp.dest(routes.scss.dest));
 
 const watch = () => {
